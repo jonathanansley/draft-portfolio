@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import logo from './imgs/headshot.JPG';
 import './App.css';
 
 import { Nav, Navbar, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
@@ -19,15 +20,20 @@ class App extends Component {
           <Nav>
 
             <NavDropdown eventKey={3} title="Portfolio Samples" id="basic-nav-dropdown">
-               <MenuItem>TrainTimes</MenuItem>
-               <MenuItem>ShoeMarket</MenuItem>
-               <MenuItem>Sportify</MenuItem>
+               <MenuItem href="/">TrainTimes</MenuItem>
+               <MenuItem href="/">ShoeMarket</MenuItem>
+               <MenuItem href="/">Sportify</MenuItem>
             </NavDropdown>
 
             <NavDropdown eventKey={4} title="Contact Me" id="basic-nav-dropdown">
-               <MenuItem>LinkedIn</MenuItem>
-               <MenuItem>GitHub</MenuItem>
-               <MenuItem>Resume</MenuItem>
+               <MenuItem eventKey="4.1">LinkedIn</MenuItem>
+              //  https://www.linkedin.com/in/jonathanansley/
+
+               <MenuItem eventKey="4.2">GitHub</MenuItem>
+// https://github.com/jonathanansley/homework-Bootstrap-Portfolio
+
+               <MenuItem eventKey="4.3">Resume</MenuItem>
+              //  Google document
             </NavDropdown>
 
           </Nav>
@@ -38,14 +44,13 @@ class App extends Component {
           <h1 className="App-title">React</h1>
         </header>
 
-        // picture
 
-        // title
-        
-        // summary
+      <body>
+        body text - description
+      </body>
 
         <p className="App-intro">
-          footer text
+          Copyright © 2017 Jonathan Ansley
         </p>
       </div>
     );
