@@ -40,8 +40,9 @@ skills.js
 						</li>
 
 						<li className='skill-item'>
-							<img className='handle-icon' src='/images/handlebars.png'/>
+							<img className='handle-icon' src='/images/handlebars.png' alt="handlebars"/>
 						</li>
+
 					</ul>
 
 				</div>

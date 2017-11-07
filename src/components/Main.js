@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import React from 'react';
 import NavbarComponent from './Children/Header';
 import Home from './Children/Home';
 import About from './Children/About';

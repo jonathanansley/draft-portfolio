@@ -7,7 +7,7 @@ import Main from './components/Main';
 
 // import registerServiceWorker from './registerServiceWorker';
 //
-// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrnap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap-theme.css';
 
 // import App from './App';

@@ -11,7 +11,7 @@ about.js
 				About Me
 			</p>
 			<div>
-				<img id="about-portrait" src="./imgs/headshot.jpg" alt="picture of Jonathan Ansley"/>
+				<img id="about-portrait" src="./imgs/headshot.jpg" alt="Jonathan Ansley"/>
 			</div>
 			<div>
 				<div id="about-me-content">
