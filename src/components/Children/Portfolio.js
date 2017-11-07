@@ -24,7 +24,7 @@ portfolio.js
 							<div className='port-desc'>
 							<a className='git-link' target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>Github Link</a>
 								<p>
-									Description: ShoeMarket helps sellers of Men's Athletic shoes manage the inventory (shoe types/sizes/quantity) of shoes, msrp, sellers price, profit (sellers price – msrp will calculate profit), clients and their data (name, address, phone, email, etc). The site will also have a history of orders that have taken place, and it will update orders that will take place via a form for the seller to fill out.
+									Description: ShoeMarket helps sellers of athletic shoes manage the inventory, sales, and clients.
 								</p>
 
 							</div>
