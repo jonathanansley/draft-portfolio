@@ -6,20 +6,21 @@ const NavbarComponent = (props) => {
 	return(
 		<div>
 
+header.js
 
 			<Navbar className='navi' inverse collapseOnSelect>
-			    <Navbar.Header>
+			    {/* <Navbar.Header>
 			      <Navbar.Toggle />
-			    </Navbar.Header>
+			    </Navbar.Header> */}
 			    <Navbar.Collapse>
 			      <Nav className='nav-list'>
-							{/*
+
 			        <NavItem className='nav-item' eventKey={1}>
-				        	<Link className='nav-link' to='/'>Home</Link>
-			        </NavItem> */}
+									<Link className='nav-link' to='/'>Home</Link>
+			        </NavItem>
 
 			        <NavItem className='nav-item' eventKey={2}>
-				        	<Link className='nav-link' to='/about'>About</Link>
+									<Link className='nav-link' to='/about'>About</Link>
 			        </NavItem>
 
 			        <NavItem className='nav-item' eventKey={3}>

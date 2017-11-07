@@ -2,26 +2,29 @@ import React from 'react';
 
 const Footer = (props) => {
 	return(
+
 		<div className='footer'>
-			<div className='foot-icon'>
-				<a href='https://www.linkedin.com/in/jonathanansley/' target='_blank'>
-					<i className=" fa-icon fa fa-linkedin-square" aria-hidden="true"></i>
-				</a>
-			</div>
 
+footer.js
 
+		      <ul class="list-unstyled">
 
-			{/* 
-			       <MenuItem eventKey="4.3">Resume</MenuItem>
-			      //  Google document */}
+		        <li>
+		          <a href="https://www.linkedin.com/in/jonathanansley/" target="_blank">
+		            <img src="./imgs/linkedin.png" alt="alt text to Connect with me on LinkedIn"></img>
+		          </a>
+		        </li>
 
+		        <li>
+		          <a href="https://github.com/jonathanansley" target="_blank">
+		            <img src="./imgs/github.png" alt="alt text to Connect with me on GitHub"></img>
+		          </a>
+		        </li>
 
-			<div className='foot-icon'>
-				<a href='https://github.com/jonathanansley' target='_blank'>
-					<i className="fa-icon fa fa-github" aria-hidden="true"></i>
-				</a>
-			</div>
-		</div>
+		      </ul>
+
+   </div>
+
 	);
 }
 
