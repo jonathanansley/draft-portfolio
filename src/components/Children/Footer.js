@@ -5,19 +5,26 @@ const Footer = (props) => {
 
 		<div className='footer'>
 
-footer.js
+
+			<nav class="navbar navbar-default navbar-fixed-bottom">
+				<div class="container">
+					Copyright &copy; 2017 Jonathan Ansley
+				</div>
+			</nav>
+
+
 
 		      <ul class="list-unstyled">
 
 		        <li>
 		          <a href="https://www.linkedin.com/in/jonathanansley/" target="_blank" rel="noopener noreferrer">
-		            <img src="./imgs/linkedin.png" alt="alt text to Connect with me on LinkedIn"></img>
+								<img class='social' src='../src/imgs/linkedin.png' alt="Connect with me on LinkedIn"></img>
 		          </a>
 		        </li>
 
 		        <li>
 		          <a href="https://github.com/jonathanansley" target="_blank" rel="noopener noreferrer">
-		            <img src="./imgs/github.png" alt="alt text to Connect with me on GitHub"></img>
+		            <img class='social' src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="Connect with me on GitHub"></img>
 		          </a>
 		        </li>
 
