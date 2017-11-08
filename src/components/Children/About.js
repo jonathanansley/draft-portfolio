@@ -6,12 +6,13 @@ const About = (props) => {
 
 about.js
 
-
 			<p id="about-me-title" className="animated fadeInDown center-text">
 				About Me
 			</p>
 			<div>
-				<img id="about-portrait" src="./imgs/headshot.jpg" alt="picture of Jonathan Ansley"/>
+				// <img id="about-portrait" src="./imgs/headshot.jpg" alt="Jonathan Ansley"/>
+				<img id="about-portrait" src="https://avatars0.githubusercontent.com/u/25236580?s=400&v=4" alt="Jonathan Ansley"/>
+
 			</div>
 			<div>
 				<div id="about-me-content">

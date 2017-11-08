@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import './css/style.css';
 import { HashRouter } from 'react-router-dom';
-import Main from './components/Main';
+import Main from './components/main';
 
 // import registerServiceWorker from './registerServiceWorker';
 //
